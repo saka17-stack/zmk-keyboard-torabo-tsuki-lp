@@ -5,7 +5,7 @@
 &pointing_listener {
     // 通常時：カーソル移動 + トラックボール操作時にレイヤー4(mouse)を一時ON
     input-processors =
-        <&zip_temp_layer 4 2000>,
+        <&zip_temp_layer 4 800>,
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
         <&zip_xy_scaler 1 2>;
 
