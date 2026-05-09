@@ -57,5 +57,11 @@
 &trans  &trans   &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans            &trans     &trans         &trans     &trans      &trans
             >;
         };
+
+        layer_4 {
+            display-name = "mouse";
+            status = "reserved";
+        };
+
     };
 };
